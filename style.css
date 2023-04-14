@@ -149,7 +149,7 @@
  .Heading
 {
   text-decoration:none;
-  font-size:20px;
+  font-size:30px;
   position:relative;
 }
 .Heading:after
@@ -170,6 +170,8 @@
 {
   transform:scaleX(.12);
 }
+
+
     /* headingsend */
 
 .products{
@@ -248,6 +250,7 @@ margin-top: 30px;
 }
 .buttoncontainer{
   text-align: center;
+  padding-bottom: 44px;
 }
 .showbutton{
   font-family: 'League Spartan', sans-serif;
@@ -271,4 +274,107 @@ margin-top: 30px;
 .aboutus{
   width: 100%;
   height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+
+
+.about-us {
+  height: 67vh;
+  width: 100%;
+  padding: 113px 0;
+  background: #ddd;
+  padding-top: 72px;
+}
+
+#Abtus{
+  font-family: Montserrat, sans-serif;
+  margin-top: 60px;
+  /* text-align: center; */
+  font-size: 65px;
+  align-items: center;
+}
+
+.pic {
+  height: 54vh;
+  width: 58vh;
+  position: absolute;
+  left: 18vh;
+  padding-top: 19vh;
+}
+
+.about {
+  width: 1130px;
+    max-width: 85%;
+    margin: -79px auto;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.text {
+  width: 540px;
+}
+
+.text h2 {
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+
+.text h5 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+span {
+  color:  rgb(7, 221, 68);
+  font-size: 35px;
+}
+
+.text p {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .mySlides {
+    height: 109vh;
+    width: 179vh;
+  }
 }
