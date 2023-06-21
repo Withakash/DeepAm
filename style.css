@@ -533,7 +533,17 @@ span {
   float: right;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
+.totop button{
+    margin: 7px 0px 7px 0px;
+    border-radius: 31px;
+    background-color: rgb(7, 221, 68);
+    color: #ffffff;
+    border: 0;
+    padding: 12px 32px;
+    font-weight: bold;
+    float: right;
+}
+
 
 @media (max-width: 1000px) {
 
