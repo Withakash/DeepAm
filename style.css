@@ -37,9 +37,10 @@
 .header .nav-links {
   background-color: rgba(0, 0, 0, 0.433);
   border-radius: 8px;
-  margin: 55px 45px 0px 0px;
+  margin: 55px 45px 0px 870px;
   list-style-type: none;
   display: flex;
+  position: fixed;
   justify-content: center;
   width: 480px;
   padding: 14px;
